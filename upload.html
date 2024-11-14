@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload de Fatura</title>
+</head>
+<body>
+    <h1>Upload de Fatura</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Selecione a fatura (PDF):</label>
+        <input type="file" id="file" name="file" accept="application/pdf" required>
+        <button type="submit">Enviar para análise</button>
+    </form>
+</body>
+</html>
